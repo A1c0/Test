@@ -3,6 +3,8 @@
 
 int somme (int a , int b);
 
+void afficher(int a);
+
 int main(int argc, char const *argv[])
 {
 	printf("Hello Guys!\n");
@@ -18,4 +20,9 @@ int main(int argc, char const *argv[])
 int somme (int a , int b)
 {
 	return a+b;
+}
+
+void afficher(int a)
+{
+	printf("val =%d\n", a);
 }
